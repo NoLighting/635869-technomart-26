@@ -43,57 +43,43 @@
 				<!-- *Ползунок* -->
 				<!-- *Формы цен* -->
 			</section>
-			<section>
-				<p>Производители:</p>
+			<form class="filter-firm" method="get" action="https://exho.htmlacademy.ru">				
+			<p>Производители:</p>
 				<ul>
 					<li>
-						<label>
-						Bosch
-						<input type="checkbox" name="#">
-						</label>
+						<input type="checkbox" name="bosch" id="filter-bosch">
+						<label for="filter-bosch">Bosch</label>
 					</li>
 					<li>
-						<label>
-						Интерскол
-						<input type="checkbox" name="#">
-						</label>
+						<input type="checkbox" name="interskol" id="filter-interskol">
+						<label for="filter-interskol">Интерскол</label>
 					</li>
 					<li>
-						<label>
-						Makita
-						<input type="checkbox" name="#">
-						</label>
+						<input type="checkbox" name="makita" id="filter-makita">
+						<label for="filter-makita">Makita</label>
 					</li>
 					<li>
-						<label>
-						Dewalt
-						<input type="checkbox" name="#">
-						</label>
+						<input type="checkbox" name="dewalt" id="filter-dewalt">
+						<label for="filter-dewalt">Dewalt</label>
 					</li>
 					<li>
-						<label>
-						Hitachi
-						<input type="checkbox" name="#">
-						</label>
+						<input type="checkbox" name="hitachi" id="filter-hitachi">
+						<label for="filter-hitachi">Hitachi</label>
 					</li>
 				</ul>
-			</section>
-			<section>
+			</form>
+			<form class="filter-power" method="get" action="https://exho.htmlacademy.ru">
 				<p>Питание:</p>
 				<li>
-					<label>
-					Аккумуляторные
-					<input type="checkbox" name="#">
-					</label>
+					<input type="checkbox" name="accumulator" id="filter-accumulator">
+					<label for="filter-accumulator">Аккумуляторные</label>
 				</li>
 				<li>
-					<label>
-					Сетевые
-					<input type="checkbox" name="#">
-					</label>
+					<input type="checkbox" name="network" id="filter-netwok">
+					<label for="filter-netwok">Сетевые</label>
 				</li>
-				<button type="button">Показать</button>
-			</section>
+			</form>
+			<button type="submit">Показать</button>
 			<section class="list_item"><!-- Список товаров -->
 				<ul>
 					<li class="item">
