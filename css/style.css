@@ -11,6 +11,30 @@ body {
 	padding: 0;
 
 	font-family: "Cuprum";
-	
+}
 
+a {
+	text-decoration: none;
+}
+
+.navigation {
+	font-size: 17px;
+	line-height: 17px;
+}
+
+.navigation_list {
+	background-color: #32425c;
+}
+
+.navigation,
+.navigation_list {
+	list-style: none;
+}
+
+.navigation_list a {
+	color: #ffffff;
+}
+
+.navigation_list a:hover {
+	background-color: #1d2739;
 }
