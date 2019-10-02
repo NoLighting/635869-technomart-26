@@ -347,6 +347,13 @@ h3 {
 
 .footer {
 	background-color: #32425c;
+	display: flex;
+}
+
+.footer_address {
+	color: #f3f7f9;
+	font-size: 18px;
+	line-height: 24px;
 }
 
 .footer_navigation {
@@ -357,4 +364,30 @@ h3 {
 	color: #f1f5f7;;
 	font-size: 18px;
 	font-weight: 400;
+}
+
+.list_promo {
+	list-style: none;
+}
+
+.list_promo a {
+	color: #ffd180;
+	font-size: 18px;
+	line-height: 24px;
+}
+
+.copyright {
+	color: #ffffff;
+	font-size: 16px;
+	line-height: 18px;
+}
+
+.link_name {
+	color: #ffffff;
+	font-size: 16px;
+}
+
+.link {
+	color: #ffd180;
+	font-size: 16px;
 }
